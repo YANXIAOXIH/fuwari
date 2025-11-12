@@ -25,7 +25,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-copy-button.js";
 
 import react from "@astrojs/react";
-
+import keystatic from '@keystatic/astro'; 
 import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
@@ -37,6 +37,7 @@ export default defineConfig({
 
   integrations: [
       react(),
+      keystatic(),
       tailwind({
           nesting: true,
       }),
@@ -179,5 +180,9 @@ export default defineConfig({
       },
 	},
 
-  adapter: cloudflare(),
+  adapter: cloudflare({
+    platformProxy: {
+      enabled: true,
+    },
+  })
 });
