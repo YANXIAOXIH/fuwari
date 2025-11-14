@@ -109,7 +109,7 @@ export default config({
     posts: collection({
       label: 'Blog Posts',
       slugField: 'title',
-      path: 'src/content/posts/**/*.{md,mdx}',
+      path: 'src/content/posts/**',
       format: 'frontmatter',
       entryLayout: 'content',
       schema: {
