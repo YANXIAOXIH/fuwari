@@ -1,0 +1,80 @@
+{
+  "site": {
+    "title": "Fuwari",
+    "subtitle": "Demo Site",
+    "lang": "zh_CN",
+    "themeColor": {
+      "hue": 250,
+      "fixed": false
+    },
+    "banner": {
+      "enable": true,
+      "src": "/src/assets/images/demo-banner.png",
+      "position": "center",
+      "credit": {
+        "enable": false,
+        "text": "",
+        "url": ""
+      }
+    },
+    "toc": {
+      "enable": true,
+      "depth": 2
+    },
+    "favicon": []
+  },
+  "navBar": {
+    "links": [
+      {
+        "name": "Home",
+        "url": "/",
+        "external": false
+      },
+      {
+        "name": "Archive",
+        "url": "/archive",
+        "external": false
+      },
+      {
+        "name": "About",
+        "url": "/about",
+        "external": false
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/saicaca/fuwari",
+        "external": true
+      }
+    ]
+  },
+  "profile": {
+    "avatar": "/src/assets/images/demo-avatar.png",
+    "name": "Lorem Ipsum",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "links": [
+      {
+        "name": "Twitter",
+        "icon": "fa6-brands:twitter",
+        "url": "https://twitter.com"
+      },
+      {
+        "name": "Steam",
+        "icon": "fa6-brands:steam",
+        "url": "https://store.steampowered.com"
+      },
+      {
+        "name": "GitHub",
+        "icon": "fa6-brands:github",
+        "url": "https://github.com/saicaca/fuwari"
+      }
+    ]
+  },
+  "license": {
+    "enable": true,
+    "name": "CC BY-NC-SA 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  "expressiveCode": {
+    "theme": "github-dark"
+  }
+}
