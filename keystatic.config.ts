@@ -110,7 +110,7 @@ export default config({
       label: 'Blog Posts',
       slugField: 'title',
       path: 'src/content/posts/**',
-      format: 'frontmatter',
+      format: { contentField: 'content' },
       entryLayout: 'content',
       schema: {
         title: fields.text({ label: 'Title', validation: { isRequired: true } }),
