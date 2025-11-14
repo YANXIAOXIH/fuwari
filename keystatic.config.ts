@@ -109,6 +109,7 @@ export default config({
     posts: collection({
       label: 'Blog Posts',
       //slugField: 'title',
+      slugField: 'slug',
       path: 'src/content/posts/**',
       format: { contentField: 'content' },
       entryLayout: 'content',
