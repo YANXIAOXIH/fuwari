@@ -132,8 +132,8 @@ export default config({
 
     pages: collection({
       label: 'About Pages',
-      path: 'src/content/spec/*',
-      format: 'frontmatter',
+      path: 'src/content/spec/**',
+      format: { contentField: 'content' },
       schema: {
         content: fields.markdoc({ label: 'Page Content' }),
       },
