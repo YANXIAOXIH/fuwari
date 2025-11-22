@@ -49,9 +49,9 @@
     "enable": true,
     "title": "公告",
     "content": "欢迎来到我的博客！！！",
-    "closable": true,
+    "closable": false,
     "link": {
-      "enable": true,
+      "enable": false,
       "text": "了解更多",
       "url": "/about",
       "external": false
