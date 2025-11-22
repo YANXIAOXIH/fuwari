@@ -47,7 +47,6 @@
   },
   "announcement": {
     "enable": true,
-    "title": "公告",
     "content": "欢迎来到我的博客！！！",
     "closable": false,
     "link": {
